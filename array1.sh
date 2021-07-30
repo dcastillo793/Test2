@@ -6,7 +6,7 @@
 # Purpose: Learning!
 
 # make each directory
-#mkdir dir1 dir2 dir3 dir4
+mkdir dir1 dir2 dir3 dir4
 
 # add directories to an array
 directories=("/Test2/dir1" "/Test2/dir2" "/Test2/dir3" "/Test2/dir4")
