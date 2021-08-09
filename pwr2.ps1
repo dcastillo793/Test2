@@ -20,7 +20,7 @@ get-process | Sort-Object -Property WS -Descending | Select-Object -first 5
 
 
 # This opens Interent Explorer
-[system.Diagnostics.Process]::Start("iexplore,"https://owasp.org/www-project-top-ten/")
+[system.Diagnostics.Process]::Start("iexplore","https://owasp.org/www-project-top-ten/")
 
 
 # This creates a variable and then opens 10 instances of Interent Explorer
