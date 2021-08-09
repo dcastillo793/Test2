@@ -28,7 +28,7 @@ $loopnum=10
 
 for ($T=0;$T -lt $loopnum;$T++)
 {
-    [system.Diagnostics.Process]::Start("iexplore,"https://owasp.org/www-project-top-ten/")
+    [system.Diagnostics.Process]::Start("iexplore","https://owasp.org/www-project-top-ten/")
 }
 
 
